@@ -1,0 +1,47 @@
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-image: url('Banner\ Image.png');
+    width: 1220px;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    margin: auto;
+}
+
+.banner {
+    text-align: center;
+    color: #FFF;
+    padding: 80px ;
+}
+.first {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.second {
+    font-size: 70px;
+    width: 600px;
+    height: 150px;
+    margin: auto;
+}
+.Wel-section{
+    background-image: url('../resources/Vectorrr.png');
+    margin: auto;
+    background-repeat: no-repeat;
+    width: 1220px;
+    height: 550px;
+}
+.welcome{
+
+}
+.Wel-title{
+    color: #FFF;
+font-size: 60px;
+font-weight: 400;
+margin:150px;
+}
