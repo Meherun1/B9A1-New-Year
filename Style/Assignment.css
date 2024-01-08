@@ -4,44 +4,215 @@ body {
 }
 
 .header {
-    background-image: url('Banner\ Image.png');
+    background-image: linear-gradient(180deg, rgba(15, 2, 2, 0), rgb(10, 10, 10)), url('Banner\ Image.png');
     width: 1220px;
     height: 550px;
     background-repeat: no-repeat;
-    background-position: center;
-    background-color: black;
+    position: relative;
+    border-radius: 16px;
     margin: auto;
+    background-size: cover;
 }
 
 .banner {
     text-align: center;
     color: #FFF;
-    padding: 80px ;
+    padding: 80px;
 }
+
 .first {
     font-size: 30px;
     font-weight: 300;
     margin-bottom: 10px;
 }
+
 .second {
     font-size: 70px;
     width: 600px;
     height: 150px;
     margin: auto;
 }
-.Wel-section{
-    background-image: url('../resources/Vectorrr.png');
+
+/* Main Section */
+.offer {
+    display: block;
+}
+
+.discount {
+    text-align: center;
+    background: #FFF;
+}
+
+.happy {
+    margin: 50px auto 80px;
+    width: 700px;
+    height: 400px;
+    padding-left: 300px;
+}
+
+.off {
+    color: #F00;
+    font-size: 80px;
+    font-weight: 600;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.holiday {
+    color: #F00;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0%;
+}
+
+.category {
+    color: #070211;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0%;
+}
+
+.Wel-section {
+    background-image: linear-gradient(to left, rgba(15, 2, 2, 0), rgb(10, 10, 10)), url('../resources/Vectorrr.png');
     margin: auto;
     background-repeat: no-repeat;
     width: 1220px;
     height: 550px;
 }
-.welcome{
 
+.wel {
+    display: flex;
 }
-.Wel-title{
+
+.welcome {
+    margin: 30px;
+    padding: 30px;
     color: #FFF;
-font-size: 60px;
-font-weight: 400;
-margin:150px;
+}
+
+.Wel-title {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 88px;
+    width: 640px;
+    margin-bottom: 20px;
+}
+
+.wel-des {
+    font-size: 20px;
+    font-weight: 400;
+}
+ .images { 
+    padding-top: 40px;
+    width: 400px;
+    height: 450px;
+    margin-right: 20px;
+    background:none;
+}
+
+.welcome>button {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.Event {
+    width: 600;
+    height: 300;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    border: 10px;
+    padding: 100px;
+    border-radius: 6px 5px;
+    background-size: contain;
+    margin: 50px;
+    background-color: rgb(241, 224, 227);
+}
+
+span {
+    color: #F00;
+}
+
+.btn {
+    border-radius: 5px;
+    background: #F00;
+    display: inline-flex;
+    padding: 15px 30px;
+    gap: 10px;
+    border: 50%;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.new {
+    display: flex;
+    width: 1000px;
+    height: 450px;
+    margin: auto;
+    border-radius: 5px;
+    background: rgb(248, 245, 245);
+    border:50%
+}
+
+.best {
+    color: #F00;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.soon {
+    color: #070211;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.des {
+    color: rgb(10, 10, 10);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 350;
+}
+.eli {
+    width: 360px;
+    height: 360px;
+    margin:30px 20px 30px;
+    border: 8px solid red;
+    border-radius: 50%;
+}
+.block {
+    display: block;
+}
+.year {
+    margin: 50px auto 10px;
+    color: #F00;
+    font-size: 48px;
+    font-weight: 500;
+}
+.dream {
+    color: rgb(10, 10, 10);
+    font-size: 18px;
+    font-weight: 350;
+    width: 276px;
+}
+.sale-item{
+    text-align: center;
+}
+
+.img-list{
+    background-image:url('/resources/Rectangle\ 2.png');
+    background-size: 50%;
+    border-radius: 16px 0px 16px 16px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    background-position: center;
+}
+.gr75{
+    margin-bottom: 1000px;
+    align-items: center;
+
 }
