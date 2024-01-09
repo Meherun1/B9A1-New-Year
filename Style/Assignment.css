@@ -181,6 +181,10 @@ span {
     margin:30px 20px 30px;
     border: 8px solid red;
     border-radius: 50%;
+    padding-left: 10px ;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .block {
     display: block;
@@ -206,13 +210,128 @@ span {
     background-size: 50%;
     border-radius: 16px 0px 16px 16px;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 400px;
+    width: 1600px;
+    height: 650px;
     position: absolute;
-    background-position: center;
+    background-position: bottom;
 }
 .gr75{
     margin-bottom: 1000px;
-    align-items: center;
+    position: relative;
+}
+.port{
+     /* width: 1200px;
+    height: 400px; */
+    background-color: #FFF;
+    border: 10px;
+    padding-bottom: 100px; 
+    border-radius: 6px 5px;
+    width: 1120px;
+    height:800px;
+    margin: auto; 
+    margin-bottom: 100px;
+}
+.port-des{
+    margin-left:50px;
+    margin-top:10px;
+}
+.port-items{
+    display: flex;
+}
+.port-img{
+    margin-left: 10px;
+    width: 350px;
+    height: 350px;
+}
+.Awesome{
+    color: #070211;
+font-size: 40p;
+font-weight: 800;
+}
+.para{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 18px;
+font-weight: 900;
+}
+.gifts{
+    color: #F00;
+font-size: 22px;
+font-weight: 400;
+margin-bottom: 10px;
+}
+.subs{
+    display: block;
+    text-align: center;
+    width: 900px;
+height: 350px;
+border: 10px;
+padding: 100px;
+border-radius: 6px 5px;
+margin: 50px;
+background-color: rgb(241, 224, 227);
+background-position: center;
+background-size: contain;
+margin: auto;
+}
+.par{
+    width: 800px;
+    text-align: center;
+}
+.sub-btn{
+    color: #FFF;
+    background-color: #F00;
+    background-size: cover;
+    margin-left:0;
+    border-radius: 0px 50px 50px 0px;
+}
+.sub{
+    color: #070211;;
+font-size: 45px;
+font-weight: 800;
+margin-left: 10px
+}
+footer{
+    background-color: black;
+    margin-top: 50px;
+    background-size: cover;
+height: 400px;
+color: #FFF;
+}
+.footer-des{
+    display: flex;
+    gap:400px;
+    padding-top:80px;
+}
+.web{
+    padding-left: 50px;
+font-size: 22px;
+font-weight: 250;
+}
+.webs{
+    padding-left: 50px;
+    font-size: 22px;
+    font-weight: 250;
+    padding-top: 80px;
 
 }
+.res{
+    display: flex;
+    gap:800px;
+}
+.unsub{
+    background-color: #FFF;
+    color: black;
+font-size: 22px;
+font-weight: 500;
+background-size:50%;
+border-radius: 2px 2px 2px 2px;
+border: 8px;
+width: 145px;
+height: 40Px;
+margin-top:80px;
+}
+.links{
+    padding-left: 600px;
+    margin-top: 30px;
+}
+    
